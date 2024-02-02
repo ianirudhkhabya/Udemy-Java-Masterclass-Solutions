@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+
 public class Customer {
+    
     private String name;
     private ArrayList<Double> transactions;
 
@@ -10,7 +12,7 @@ public class Customer {
     }
 
     public void addTransaction(double amount) {
-        this.transactions.add(amount);
+        transactions.add(amount);
     }
 
     public String getName() {
